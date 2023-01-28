@@ -181,3 +181,29 @@ section h3 {
 .referral-code ion-icon:hover {
   color: #000;
 }
+.popUp {
+  /* width: 5rem; */
+  position: absolute;
+  top: 7rem;
+  background-color: #fff;
+  z-index: 12;
+  right: -3rem;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0 20rem rgba(0, 0, 0, 0.1);
+}
+.popUp div {
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  color: #444 !important;
+  gap: 1rem;
+  align-items: center;
+}
+.popUp ion-icon {
+  font-size: 3rem;
+  color: #555 !important;
+}
