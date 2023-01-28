@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <aside>
+      <div class="logo">LOGO</div>
+      <div class="menu">
+        <a id="menu-active" href=""
+          ><ion-icon name="home-outline"></ion-icon>
+          <div class="menuActive"></div>
+          Dashboard</a
+        >
+        <a href=""
+          ><ion-icon name="add-circle-outline"></ion-icon>Add Services</a
+        >
+        <a href=""><ion-icon name="menu-outline"></ion-icon>Show Services</a>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <ion-icon name="notifications-outline"></ion-icon>
+        <ion-icon class="profile-icon" name="person-circle-outline"></ion-icon>
+        <div class="popUp none">
+          <div><ion-icon name="person-circle-outline"></ion-icon>Profile</div>
+          <div><ion-icon name="log-out-outline"></ion-icon>Log Out</div>
+        </div>
+        <div class="headLine"></div>
+      </header>
+      <section class="section-data">
+        <div class="section-head">
+          <h2>Profile</h2>
+          <h3>Dashboard / Profile</h3>
+        </div>
+        <section class="profile">
+          <div class="profile-photo">
+            <h1>Profile Photo</h1>
+            <img src="profile.webp" alt="" />
+            <form action="">
+              <label for="images" class="drop-container">
+                <span class="drop-title">Drop files here</span>
+                or
+                <input type="file" id="images" accept="image/*" required />
+              </label>
+            </form>
+          </div>
+          <div class="profileForm">
+            <div class="account">
+              <form action="">
+                <label for="">Name</label>
+                <input type="text" placeholder="Enter your Full Name" />
+                <ion-icon name="person-outline"></ion-icon>
+              </form>
+              <form action="">
+                <label for="">Mobile Number</label>
+                <input type="text" placeholder="Enter your Mobile Number" />
+                <ion-icon name="call-outline"></ion-icon>
+              </form>
+              <form action="">
+                <label for="">Email</label>
+                <input type="text" placeholder="Enter your Email" />
+                <ion-icon name="mail-outline"></ion-icon>
+              </form>
+              <form action="">
+                <label for="">Referral Code</label>
+                <input type="text" placeholder="Enter your Referral Code" />
+                <ion-icon name="gift-outline"></ion-icon>
+              </form>
+            </div>
+          </div>
+        </section>
+        <a href="" class="btnn btn-primary btn-large">Submit</a>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
