@@ -21,7 +21,6 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="script.js"></script>
   </head>
   <body>
     <nav class="nav">
@@ -32,8 +31,17 @@
           <li><a class="nav-el" href="">Login</a></li>
           <li><a class="btn-primary nav-el" href="">Register</a></li>
         </ul>
+        <div class="navbar">
+          <ion-icon class="navbbar" name="menu-outline"></ion-icon>
+        </div>
       </div>
     </nav>
+    <div class="navigation none">
+      <ion-icon class="close" name="close-outline"></ion-icon>
+      <a href="">Home</a>
+      <a href="">Log In</a>
+      <a href="/register">Register</a>
+    </div>
     <div class="hero">
       <div class="heroContent">
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
@@ -64,7 +72,7 @@
         <div class="serviceBox">
           <ion-icon name="rocket-outline"></ion-icon>
           <h1>Best SMM Panel</h1>
-          <p>
+          <p class="servicep">
             SMM Forest provides the highest quality of promotions. We are one of
             the best SMM reseller panels including some special services out
             there online.
@@ -203,5 +211,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
