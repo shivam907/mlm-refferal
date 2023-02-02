@@ -24,7 +24,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   </head>
   <body>
-    <aside>
+    <aside class="none1">
       <div class="logo">LOGO</div>
       <div class="menu">
         <a id="menu-active" href=""
@@ -43,8 +43,18 @@
         <a href=""><ion-icon name="cash-outline"></ion-icon>Withdraw Balance</a>
       </div>
     </aside>
+    <div class="navigation none">
+      <ion-icon class="close" name="close-outline"></ion-icon>
+      <a href="">Dashboard</a>
+      <a href="">Profile</a>
+      <a href="">Transaction History</a>
+      <a href="">Withdraw Balance</a>
+    </div>
     <main>
       <header>
+        <div class="navbar">
+          <ion-icon class="navbbar" name="menu-outline"></ion-icon>
+        </div>
         <ion-icon name="notifications-outline"></ion-icon>
         <ion-icon class="profile-icon" name="person-circle-outline"></ion-icon>
         <div class="popUp none">
@@ -56,7 +66,7 @@
       <section class="section-data">
         <div class="section-head">
           <h2>Dashboard</h2>
-          <h3>Dashboard / Dashboard</h3>
+          <!-- <h3>Dashboard / Dashboard</h3> -->
         </div>
         <div class="sectionBoxes">
           <div class="sectionBox">
