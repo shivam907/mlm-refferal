@@ -456,6 +456,8 @@ select.minimal {
 }
 .table {
   display: flex;
+
+  overflow: auto;
   height: max-content;
 }
 
@@ -680,6 +682,7 @@ select.minimal {
     max-width: 100% !important;
   }
   .transaction {
+    overflow: auto;
     width: 90vw;
     padding: 4rem;
     overflow: auto;
