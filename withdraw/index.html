@@ -44,8 +44,19 @@
         <a id="menu-active" href=""><ion-icon name="cash-outline"></ion-icon><div class="menuActive"></div>Withdraw Balance</a>
       </div>
     </aside>
+        <div class="navigation none">
+      <ion-icon class="close" name="close-outline"></ion-icon>
+      <a href="">Dashboard</a>
+      <a href="">Profile</a>
+      <a href="">Transaction History</a>
+      <a href="">Withdraw Balance</a>
+    </div>
+
     <main>
       <header>
+        <div class="navbar">
+          <ion-icon class="navbbar" name="menu-outline"></ion-icon>
+        </div>
         <ion-icon name="notifications-outline"></ion-icon>
         <ion-icon class="profile-icon" name="person-circle-outline"></ion-icon>
         <div class="popUp none">
@@ -57,9 +68,8 @@
       <section class="section-data">
         <div class="section-head">
           <h2>Withdraw Balance</h2>
-          <h3>Dashboard / Withdraw</h3>
+          <!-- <h3>Dashboard / Withdraw</h3> -->
         </div>
-        <section class="profile">
           <!-- <div class="profile-photo">
             <h1>Profile Photo</h1>
             <img src="profile.webp" alt="" />
@@ -98,9 +108,10 @@
           </div>
         </section>
         <a href="" class="btnn btn-primary btn-large">Submit</a> -->
+
+        <section class="profile">
         <div class="container">
           <h1>Withdraw Balance</h1>
-          <h2>Your Available Balance :- $ 100</h2>
           <div>
             <label for="">Enter Amount you want to Withdraw</label>
             <input type="text" placeholder="Enter Amount">
@@ -121,6 +132,18 @@
             <input type="text" placeholder="Enter IFSC Code">
             <ion-icon class="ser" name="code-outline"></ion-icon>
           </div>
+          <a href="" class="btn">Search</a>
+        </div>
+        <div class="balance">
+
+          <h2>Your Available Balance :- </h2>
+            <span>
+
+            $ 100
+          </span>
+        
+        </div>
+    </section>
           <!-- <container>
 
             <select class="classic">
@@ -133,41 +156,60 @@
             <input class="date" type="date" name="dd-mm-yyyy" id="" placeholder="dd-mm-yyyy">
             <ion-icon class="cal" name="calendar-outline"></ion-icon>
           </container> -->
-            <a href="" class="btn">Search</a>
-        </div>
         
      
 
-      </section>
        <div class="transaction">
           <div class="table">
-            <div class="head">
+            <div class="tdata">
               <div class="th1 t1">Date</div>
-              <div class="th1 t2">Trx Number</div>
-              <div class="th1 t3">Username</div>
-              <div class="th1 t4">Method</div>
-              <div class="th1 t5">Amount</div>
-              <div class="th1 t6">Charge</div>
-              <div class="th1 t7">Payable</div>
-              <div class="th1 t8">Status</div>
-              <div class="th1 t9">Actions</div>
-            </div>
-            <div class="head">
-              <div class="th1 t1">30 Jan</div>
-              <div class="th1 t2">1234</div>
-              <div class="th1 t3">shivam</div>
-              <div class="th1 t4">Card</div>
-              <div class="th1 t5">$10</div>
-              <div class="th1 t6">0</div>
-              <div class="th1 t7">0</div>
-              <div class="th1 t8"><p>
+              <div class="td t1">30 Jan</div>
+              </div>
+              <div class="tdata">
 
-                Pending
-              </p> 
-            </div>
-              <div class="th1 t9"><ion-icon name="settings-outline"></ion-icon></div>
-            </div>
-            
+                <div class="th1 t2">Trx Number</div>
+                <div class="td t2">1234</div>
+              </div>
+              <div class="tdata">
+
+                <div class="th1 t3">Username</div>
+                <div class="td t3">shivam</div>
+              </div>
+              <div class="tdata">
+
+                <div class="th1 t4">Method</div>
+                <div class="td t4">Card</div>
+              </div>
+              <div class="tdata">
+
+                <div class="th1 t5">Amount</div>
+                <div class="td t5">$10</div>
+              </div>
+              <div class="tdata">
+                <div class="th1 t6">Charge</div>
+                
+                <div class="td t6">0</div>
+              </div>
+              <div class="tdata">
+
+                <div class="th1 t7">Payable</div>
+                <div class="td t7">0</div>
+              </div>
+              <div class="tdata tda ">
+                
+                <div class="th1 t8">Status</div>
+                <div class="td t8"><p>
+    
+                  Pending
+                </p> 
+              </div>
+              </div>
+              <div class="tdata tda9">
+
+                <div class="th1 t9">Actions</div>
+                <div class="td t9"><ion-icon name="settings-outline"></ion-icon></div>
+              </div>
+            <!-- </div> -->
           </div>
         </div>
     </main>
