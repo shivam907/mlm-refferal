@@ -27,7 +27,7 @@ aside {
   position: absolute;
   z-index: -1;
   left: 0;
-  width: 23rem;
+  width: 24rem;
   height: 5rem;
   background-color: #0275d8;
 
@@ -48,7 +48,8 @@ main {
   padding-right: 7rem;
   height: 100vh;
   margin: 0 auto;
-  margin-left: 30rem;
+  margin-left: 32rem;
+  margin-bottom: 5rem !important;
   /* background-color: #0275d8; */
 }
 header {
@@ -349,6 +350,7 @@ input[type="file"]::file-selector-button:hover {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
   /* display: flex; */
   /* gap: 3rem; */
+  margin-bottom: 5rem;
 }
 .date {
   max-width: 20rem;
@@ -465,7 +467,7 @@ select.minimal {
   background-color: #0264bb;
 }
 .transaction {
-  width: 125rem;
+  width: 110rem;
   /* padding: 5rem;
   width: 130rem; */
 }

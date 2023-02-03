@@ -46,9 +46,10 @@ aside .logo {
 main {
   /* width: 100rem; */
   padding-right: 7rem;
-  height: 100vh;
+  /* height: 110vh; */
   margin: 0 auto;
-  margin-left: 30rem;
+  margin-left: 32rem;
+  margin-bottom: 5rem;
   /* background-color: #0275d8; */
 }
 header {
@@ -76,6 +77,7 @@ header ion-icon {
   color: #0275d8;
 }
 .section-data {
+  max-width: 100rem !important;
   padding-top: 3rem;
   display: flex;
   flex-direction: column;
@@ -223,7 +225,7 @@ form label {
   font-size: 2rem;
 }
 input {
-  width: 50rem;
+  width: 35rem;
   padding: 1.5rem 6rem;
   font-size: 2rem;
   border: 1px solid #00000030;
@@ -237,6 +239,7 @@ form {
   position: relative;
 }
 .container div {
+  /* width: ; */
   position: relative;
 }
 .container div ion-icon {
@@ -249,7 +252,7 @@ form {
 
 .profile {
   display: flex;
-
+  max-width: 80rem !important;
   gap: 5rem;
   margin-top: 5rem;
 }
@@ -337,14 +340,14 @@ input[type="file"]::file-selector-button:hover {
 }
 
 .container {
-  width: 130rem;
+  width: 110rem !important;
   padding: 10rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
   display: flex;
   gap: 3rem;
 }
 .transaction {
-  width: 130rem;
+  max-width: 110rem;
   padding: 10rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
   /* display: flex; */
@@ -356,6 +359,7 @@ input[type="file"]::file-selector-button:hover {
 }
 select {
   /* styling */
+  width: 17rem;
   position: relative;
   background-color: white;
   border: 1px solid #00000030;
@@ -612,9 +616,16 @@ select.minimal {
     /* padding: 2rem; */
   }
   main {
-    width: 90vw;
+    width: 90vw !important;
     padding: 0;
     margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .container {
+    width: 90vw !important;
+  }
+  .section-data {
+    width: 90vw;
   }
   .sectionBoxes {
     display: grid;
